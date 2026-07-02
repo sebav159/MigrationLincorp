@@ -78,6 +78,13 @@ st.markdown(
         margin: 4px 0 0 0;
         font-size: 15px;
     }}
+    div[data-testid="column"] {{
+        display: flex;
+        align-items: stretch;
+    }}
+    div[data-testid="column"] > div {{
+        width: 100%;
+    }}
     .kpi-card {{
         background: {CARD_BG};
         border: 1px solid {BORDER};
@@ -85,6 +92,10 @@ st.markdown(
         padding: 16px 18px;
         box-shadow: 0 1px 3px rgba(0,0,0,0.04);
         height: 100%;
+        min-height: 128px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
     }}
     .kpi-label {{
         color: {GREY_TEXT};
@@ -93,6 +104,9 @@ st.markdown(
         letter-spacing: .04em;
         font-weight: 600;
         margin-bottom: 6px;
+        min-height: 2.4em;
+        display: flex;
+        align-items: flex-start;
     }}
     .kpi-value {{
         color: {CHARCOAL};
@@ -376,21 +390,14 @@ with tabs["Resumen ejecutivo"]:
     avance_pct = TOTAL_MIGRADAS_CONFIRMADAS / TOTAL_TIENDAS_PLAN * 100
     migradas_log = int((cronograma["estatus"] == "Migrada").sum())
     programadas_log = int((cronograma["estatus"] == "Programada").sum())
-    downtime_prom = cronograma.loc[cronograma["estatus"] == "Migrada", "downtime_min"].mean()
-    gasto_total = gastos["monto"].sum()
-    ingreso_total = ingresos["monto"].sum()
 
-    c1, c2, c3, c4, c5 = st.columns(5)
+    c1, c2, c3 = st.columns(3)
     with c1:
         kpi_card("Avance global confirmado", f"{avance_pct:.1f}%", f"{TOTAL_MIGRADAS_CONFIRMADAS} / {TOTAL_TIENDAS_PLAN} tiendas")
     with c2:
         kpi_card("Exito Ola 0", "93.6%", "73 migradas / 78 procesadas")
     with c3:
         kpi_card("Exito Ola 1 (a la fecha)", "100%", "12 / 12 tiendas")
-    with c4:
-        kpi_card("Tiempo muerto promedio", f"{downtime_prom:.0f} min" if pd.notna(downtime_prom) else "s/d", f"ingreso &rarr; cierre de caja (objetivo: {DOWNTIME_TARGET_MIN} min)")
-    with c5:
-        kpi_card("Saldo de caja chica", f"S/ {ingreso_total - gasto_total:,.2f}", f"Ingresos S/ {ingreso_total:,.0f} — Gastos S/ {gasto_total:,.0f}")
 
     st.markdown("<br>", unsafe_allow_html=True)
     col_a, col_b = st.columns([1, 2])
