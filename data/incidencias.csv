@@ -1,0 +1,7 @@
+incidencia,frecuencia,severidad_score,ola
+RUMI sin acceso / no sincroniza productos,Muy alta,4,Ola 0
+Admin no presente o no enterado de la migracion,Alta,3,Ola 0
+Red no liberada para servicios Oracle (Timeout),Media,2,Ola 0
+Rollback por incompatibilidad NCR (UEFI vs Legacy),Media,2,Ola 0
+Transferencias pendientes que retrasan cierre de caja,Media,2,Ola 0
+Disco no booteable / problemas fisicos de hardware,Baja,1,Ola 0

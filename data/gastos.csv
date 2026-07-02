@@ -1,0 +1,15 @@
+id,descripcion,monto,personal,fecha,tienda
+1,Envio de disco,25.30,Cristian Guevara Palacios,2026-06-22,TRAPICHE
+2,Gasolina,15.50,Steve Gonzales Sulca,2026-06-22,BASE
+3,Gasolina,30.70,Steve Gonzales Sulca,2026-06-23,DOMINICOS
+4,Taxi,28.50,Adrian Salguero,2026-06-23,PUNTAHERMOSA3
+5,Taxi,11.40,Steve Gonzales Sulca,2026-06-24,ENCALADA-C3
+6,Taxi,15.20,Adrian Salguero,2026-06-24,TABLADADELURIN
+7,Taxi,28.00,Jean Franco Herencia Rojas,2026-06-22,SANTAISABEL-CARABAYLLO
+8,Taxi,28.00,Jean Franco Herencia Rojas,2026-06-24,SANTAROSA
+9,Taxi,35.90,Aaron,2026-06-25,CARRANZA-C5-SJM
+10,Taxi,34.00,Jean Franco Herencia Rojas,2026-06-25,PERU-C47-CALLAO
+11,Taxi,15.20,Adrian Salguero,2026-06-25,VALLEJO
+12,Taxi,36.90,Jimmy Espiritu Ticona,2026-06-26,ECHENIQUE-C4
+13,Taxi,44.00,Jean Franco Herencia Rojas,2026-06-26,PRECURSORES-C2
+14,Taxi,54.70,Adrian Salguero,2026-06-26,CORDOVA

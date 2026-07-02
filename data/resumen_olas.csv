@@ -1,0 +1,5 @@
+ola,fecha_inicio,fecha_fin,tiendas_plan_tambo,tiendas_plan_aruma,tiendas_plan_total,tiendas_procesadas,tiendas_migradas,tiendas_reprogramadas,tiendas_pendientes,exito_pct,estado
+Ola 0,2026-06-01,2026-06-24,20,12,32,78,73,4,1,93.6,Cerrada
+Ola 1,2026-06-26,,413,36,449,12,12,0,0,100.0,En curso
+Ola 2,,,199,44,243,0,0,0,0,,No iniciada
+Ola 3,,,192,49,241,0,0,0,0,,No iniciada

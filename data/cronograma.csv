@@ -1,0 +1,90 @@
+fecha,codigo_origen,nombre_tienda,distrito,tecnico,coordinador,ingreso,cierre_caja,inicio_xstore,fin_xstore,inicio_xadmin,fin_xadmin,observaciones,estatus
+2026-06-23,,PUNTAHERMOSA3,PUNTA HERMOSA,Adrian Salguero,Alex,08:56 AM,10:39 PM,10:54 PM,12:23 AM,12:23 AM,02:34 AM,"Error de llegada por Hostname a caja 1, se revisara con Infraestructura",Migrada
+2026-06-23,,DOMINICOS,CALLAO,Steve Gonzales,Alex,09:01 AM,10:38 PM,10:38 PM,12:36 AM,12:36 AM,01:48 AM,Sin observaciones,Migrada
+2026-06-23,,RPALMA-C2,MIRAFLORES,Jimmy Ticona,Alex,08:34 AM,09:30 PM,10:11 PM,12:40 AM,12:40 AM,01:41 AM,Sin observaciones,Migrada
+2026-06-23,,LOSOLIVOS-C7-SMP,SAN MARTIN DE PORRES,Javier Blas,Alex,10:10 AM,10:10 PM,11:05 PM,,,,"Error de instalacion, caja 2 sin imagen RMS",Reprogramada
+2026-06-23,,SANTAISABEL-CARABAYLLO,CARABAYLLO,Jean Franco,Ivan,09:46 AM,09:56 PM,10:11 PM,12:48 AM,12:48 AM,02:26 AM,Sin observaciones,Migrada
+2026-06-23,,COLONIALMALL,CALLAO,Alberto Fernandez,Kelly,09:03 AM,09:34 PM,10:15 PM,11:12 PM,11:12 PM,01:05 AM,Problemas con usuarios de tienda para logearse,Migrada
+2026-06-23,,LICENCIADOS2,VENTANILLA,Toribio,Kelly,09:30 AM,09:46 PM,11:00 PM,12:38 AM,12:38 AM,01:27 AM,Sin observaciones,Migrada
+2026-06-23,,U-RPALMA,SANTIAGO DE SURCO,Sebastian,Ivan,08:43 AM,09:40 PM,11:12 PM,12:30 AM,12:30 AM,01:44 AM,Problemas con Izipay para cierre de caja 1,Migrada
+2026-06-23,,MBASTIDAS-C13,COMAS,Frank,Ivan,09:03 AM,09:27 PM,10:38 PM,,,,Sin observaciones,Migrada
+2026-06-23,,CANADA-C4,LA VICTORIA,Antonio,Kelly,08:30 AM,10:00 PM,10:19 PM,11:26 PM,11:26 PM,01:06 AM,Sin observaciones,Migrada
+2026-06-23,,BENAVIDES-C13-MIRAFLORES,MIRAFLORES,Mario,Ivan,08:30 AM,10:10 PM,10:58 PM,12:42 AM,12:42 AM,01:05 AM,Problemas con usuarios de tienda para logearse,Migrada
+2026-06-23,,MAESTROPERUANO,COMAS,Carlos Guadalupe,Kelly,08:42 AM,09:20 PM,09:59 PM,11:00 PM,11:00 PM,12:31 AM,Problemas con usuarios de tienda para logearse,Migrada
+2026-06-24,,GAVIOTAS2,PUNTA HERMOSA,Sebastian,Alex,09:25 PM,09:41 PM,10:35 PM,11:45 AM,11:45 AM,12:27 AM,Sin observaciones,Migrada
+2026-06-24,,ENCALADA-C3,CALLAO,Mario Steven,Alex,08:29 PM,09:30 PM,09:53 PM,10:33 PM,10:33 PM,11:22 PM,Sin observaciones,Migrada
+2026-06-24,,ANGAMOS-C25-2,MIRAFLORES,Alberto,Alex,08:29 PM,09:50 PM,10:19 PM,11:26 PM,11:26 PM,12:31 AM,Sin observaciones,Migrada
+2026-06-24,,SANTAROSA,SAN MARTIN DE PORRES,Toribio y Jean Franco,Alex,09:05 PM,09:38 PM,10:04 PM,11:06 PM,11:06 PM,12:06 AM,Sin observaciones,Migrada
+2026-06-24,,TABLADADELURIN,CARABAYLLO,Carlos y Adrian,Ivan,08:39 PM,08:57 PM,09:56 PM,10:31 PM,10:31 PM,12:00 AM,Sin observaciones,Migrada
+2026-06-24,,M-BASTIDAS2-VES,CALLAO,Antonio y Aaron,Kelly,09:56 PM,09:38 PM,10:35 PM,11:36 PM,11:47 PM,12:36 AM,Sin observaciones,Migrada
+2026-06-25,,HEROES-C8-SJM,SAN JUAN DE MIRAFLORES,Steve,Alex,08:51 PM,10:57 PM,11:13 PM,12:38 AM,12:38 AM,01:34 AM,"Ingreso tardio del admin a reunion; demora en cierre por transferencias pendientes; pendiente prueba RUMI; promos no validadas",Migrada
+2026-06-25,,CARRANZA-C5-SJM,SAN JUAN DE MIRAFLORES,Aron,Alex,08:42 PM,10:11 PM,10:44 PM,11:49 PM,11:49 PM,01:14 AM,Ingreso tardio del admin a reunion,Migrada
+2026-06-25,,VALLEJO,VILLA EL SALVADOR,Adrian Salguero,Alex,08:31 PM,09:12 PM,10:00 PM,11:46 PM,11:46 PM,01:14 AM,"Precio de devolucion distinto al comprado; pendiente prueba RUMI; impresora Solux en caja 3, se gestionara reemplazo",Migrada
+2026-06-25,,LIMA-C17-VMT,VILLA MARIA DEL TRIUNFO,Jimmy Espiritu Ticona,Alex,08:35 PM,10:33 PM,10:48 PM,11:51 PM,11:51 PM,,"Precio de devolucion distinto al comprado; pendiente prueba RUMI",Migrada
+2026-06-25,,REVOLUCION-C14,VILLA EL SALVADOR,Sebastian Arce,Ivan,09:23 PM,09:31 PM,10:10 PM,12:00 AM,12:00 AM,01:40 AM,Administrador llego tarde (medianoche),Migrada
+2026-06-25,,13DENERO-C21-SJL,SAN JUAN DE LURIGANCHO,Mario Torres,Ivan,08:03 PM,10:00 PM,10:30 PM,11:20 PM,11:20 PM,01:40 AM,Cierre de caja se inicio con retraso frente a lo indicado,Migrada
+2026-06-25,,BRITANICO-SANTA-ANITA,SANTA ANITA,Carlos Guadalupe,Kelly,08:20 PM,09:54 PM,10:12 PM,11:23 PM,11:23 PM,01:10 AM,Encargado de tienda llego tarde,Migrada
+2026-06-25,,ARICA-C6-BRENA,BREÑA,Frank,Ivan,08:50 PM,09:29 PM,10:10 PM,12:00 AM,12:08 AM,01:43 AM,Corte de luz por 25 minutos,Migrada
+2026-06-25,,RESTAURACION-C4,BREÑA,Antonio Salazar,Kelly,08:50 PM,10:16 PM,10:26 PM,11:30 AM,11:40 AM,,Equipo formateado sin confirmacion de backup; se reinstalo la base de datos,Migrada
+2026-06-25,,SANTACRUZ-LOS OLIVOS,LOS OLIVOS,Toribio,Kelly,09:21 PM,10:03 PM,10:25 PM,11:00 PM,11:26 PM,01:06 AM,Sin observaciones,Migrada
+2026-06-25,,PERU-C47-CALLAO,CALLAO,Jean Franco Herencia Rojas,Ivan,09:25 PM,09:50 PM,11:05 PM,12:38 AM,12:38 AM,01:38 AM,"Demora por 103 transferencias pendientes; administrador no conoce Xstore, no pudo probar ventas",Migrada
+2026-06-25,,TACNA-C5-SANMIGUEL,SAN MIGUEL,Alberto Fernandez,Kelly,08:39 PM,09:54 PM,10:25 PM,11:33 PM,11:33 PM,01:10 AM,Sin observaciones,Migrada
+2026-06-26,650,AVIACION-C38,SURQUILLO,Sebastian,Ivan,09:06 PM,09:40 PM,10:04 PM,11:30 PM,11:30 PM,12:40 AM,Caja vende - RUMI OK,Migrada
+2026-06-26,647,CORDOVA,MIRAFLORES,Adrian Salguero,Alex,08:35 PM,09:13 PM,10:04 PM,10:33 PM,10:33 PM,12:39 AM,Caja vende - RUMI OK,Migrada
+2026-06-26,631,ECHENIQUE-C4,MAGDALENA DEL MAR,Jimmy Espiritu Ticona,Alex,08:41 PM,10:34 PM,10:35 PM,11:44 PM,11:44 PM,12:50 AM,Admin no sabia de la migracion; se autorizo via zonal,Migrada
+2026-06-26,669,PRECURSORES-C2,SAN MIGUEL,Jean Franco Herencia,Ivan,09:30 PM,10:15 PM,10:16 PM,11:56 AM,12:20 AM,01:25 AM,Tienda siguio vendiendo tras las 9:30pm; falta validar venta,Migrada
+2026-06-26,838,CANTUARIAS,MIRAFLORES,Frank,Ivan,08:40 PM,10:09 PM,10:26 PM,11:30 PM,11:30 PM,12:08 AM,RUMI OK - admin no da respuesta,Migrada
+2026-06-26,891,CUBA-C1-JESUSMARIA,JESUS MARIA,Toribio,Kelly,08:37 PM,09:27 PM,10:04 PM,11:40 PM,11:30 PM,12:10 AM,Sin acceso a RUMI; pruebas OK,Migrada
+2026-06-26,867,GALLESE-C9,SAN MIGUEL,Mario Torres,Kelly,08:32 PM,09:13 PM,10:04 PM,10:56 PM,10:56 PM,12:26 AM,Sin acceso RUMI; pruebas de venta OK,Migrada
+2026-06-26,1065,BOLIVAR-C9,PUEBLO LIBRE,Aron,Ivan,08:33 PM,10:10 PM,10:04 PM,11:26 PM,11:26 PM,01:35 AM,Confirmacion via zonal; caja vende - RUMI OK,Migrada
+2026-06-26,890,LAPAZ-SANMIGUEL,SAN MIGUEL,Carlos Guadalupe,Kelly,08:37 PM,09:31 PM,10:04 PM,10:56 PM,10:56 PM,12:33 AM,Administrador se retiro; hara pruebas al dia siguiente,Migrada
+2026-06-26,976,UNIVERSITARIA-C6-SANMIGUEL,SAN MIGUEL,Antonio Salazar,Kelly,08:36 PM,09:31 PM,10:04 PM,10:54 PM,10:54 PM,12:25 AM,Administradora llego tarde; pruebas y accesos OK,Migrada
+2026-06-26,857,BRASIL-C13,PUEBLO LIBRE,Hector Malpartida,Alex,08:55 PM,09:36 PM,10:04 PM,12:42 AM,12:42 AM,01:44 AM,Caja vende - RUMI OK,Migrada
+2026-06-26,936,AYACUCHO-C3-SANMIGUEL,SAN MIGUEL,Steve Gonzales,Alex,09:06 PM,09:31 PM,10:04 PM,11:21 PM,11:21 PM,12:39 AM,Administradora sin acceso a manual; prueba tomo mas tiempo,Migrada
+2026-06-30,861,CANEVARO-C4-SJM,SAN JUAN DE MIRAFLORES,Steve Gonzales,Alex,08:51 PM,10:00 PM,10:24 PM,11:24 PM,11:10 AM,12:24 AM,Admin ausente; incidente resuelto con zonal; sincronizacion de precio RUMI,Migrada
+2026-06-30,999,LOSLAURELES-C1-SURCO,SANTIAGO DE SURCO,Jimmy Espiritu,Alex,08:04 PM,09:56 PM,10:15 PM,11:33 PM,11:33 PM,12:31 AM,Problemas de sincronizacion de precio RUMI,Migrada
+2026-06-30,921,ELPINAR-COMAS,COMAS,Alberto Fernandez,Kelly,08:29 PM,09:08 PM,10:14 PM,11:24 PM,11:24 PM,01:04 AM,Administrador sin conocimiento de procedimientos Xstore,Migrada
+2026-06-30,923,LOSOLIVOS2-SMP,SAN MARTIN DE PORRES,Jean Franco,Ivan,09:24 PM,10:05 PM,10:10 PM,11:41 PM,11:41 PM,12:48 AM,Sin observaciones,Migrada
+2026-06-30,848,ALAMEDAPLAZA-SJL,SAN JUAN DE LURIGANCHO,Aaron,Ivan,08:04 PM,09:22 PM,10:10 PM,11:28 PM,11:28 PM,12:48 AM,Sin observaciones,Migrada
+2026-06-30,893,CENTRAL-SJL,SAN JUAN DE LURIGANCHO,Mario Torres y Hector,Ivan,08:50 PM,09:43 PM,10:10 PM,11:38 PM,11:38 PM,12:48 AM,Admin ausente al llegar; resuelto con llamada al zonal,Migrada
+2026-06-30,698,VILLALEJANDRO-LURIN,LURIN,Adrian Salguero,Alex,08:12 PM,09:12 PM,11:21 PM,11:21 PM,11:21 PM,12:43 AM,Problemas de sincronizacion de precio RUMI,Migrada
+2026-06-30,770,SANBORJASUR-C2,SAN BORJA,Sebastian Arce,Ivan,08:57 PM,09:20 PM,11:10 PM,11:10 PM,11:10 PM,12:48 AM,Sin observaciones,Migrada
+2026-06-30,656,SANJUAN-C6,SAN LUIS,Antonio Salazar,Kelly,07:25 PM,09:13 PM,10:58 PM,10:58 PM,10:58 PM,01:03 AM,Sin conocimiento de procedimientos Xstore; no pasan promos de Yape,Migrada
+2026-06-30,884,CHOSICA2,LURIGANCHO,Carlos Guadalupe,Kelly,08:35 PM,09:08 PM,10:57 PM,10:57 PM,10:57 PM,12:31 AM,Sin respuesta del usuario para validaciones,Migrada
+2026-06-30,901,CONFRATERNIDAD-LOS OLIVOS,LOS OLIVOS,Frank,Alex,08:57 PM,09:08 PM,10:15 PM,11:20 PM,11:20 PM,12:48 AM,Problemas de sincronizacion de precio RUMI,Migrada
+2026-06-30,639,CORBETA-C1,SANTIAGO DE SURCO,Carlos Toribio,Kelly,09:04 PM,09:39 PM,10:30 PM,11:02 PM,11:02 PM,12:46 AM,Sin conocimiento de procedimientos Xstore; no pasan promos de Yape; sin acceso a tienda,Migrada
+2026-07-01,974,UNGER-C7-SMP,SAN MARTIN DE PORRES,"Carlos Toribio, Jean Franco",Alex,,,,,,,Programada para hoy,Programada
+2026-07-01,892,12DEOCTUBRE-2,SAN MARTIN DE PORRES,Alberto Fernandez,,,,,,,,Programada para hoy,Programada
+2026-07-01,869,CHIMU-C12,SAN JUAN DE LURIGANCHO,Hector Malpartida,,,,,,,,Programada para hoy,Programada
+2026-07-01,620,ALAMEDA-C6,CHORRILLOS,Jimmy Espiritu,,,,,,,,Programada para hoy,Programada
+2026-07-01,818,PACHACAMAC,PACHACAMAC,Adrian,Alex,,,,,,,Programada para hoy,Programada
+2026-07-01,854,GUARDIAPERUANA-CHORRILLOS,CHORRILLOS,Steve Gonzales,Alex,,,,,,,Programada para hoy,Programada
+2026-07-01,717,TRES MARIAS,SANTIAGO DE SURCO,Sebastian Arce,Alex,,,,,,,Programada para hoy,Programada
+2026-07-01,618,ALONDRAS-C2,SANTA ANITA,Carlos Guadalupe,,,,,,,,Programada para hoy,Programada
+2026-07-01,763,TUNAS-C1,ATE,Frank,,,,,,,,Programada para hoy,Programada
+2026-07-01,829,GRIFO-ARRIOLA,LA VICTORIA,Mario Torres,,,,,,,,Programada para hoy,Programada
+2026-07-01,993,CANEVARO-C6-LINCE,LINCE,Antonio Salazar,,,,,,,,Programada para hoy,Programada
+2026-07-01,644,DIEGO-DE-ALMAGRO,JESUS MARIA,Aaron,,,,,,,,Programada para hoy,Programada
+2026-07-02,,CORBETA-C1,SANTIAGO DE SURCO,Sebastian Arce,,,,,,,,Programada,Programada
+2026-07-02,,SANDIEGO-SMP,SAN MARTIN DE PORRES,Frank,,,,,,,,Programada,Programada
+2026-07-02,,CONDORCANQUI-C1,CARABAYLLO,Alberto Fernandez,,,,,,,,Programada,Programada
+2026-07-02,,CERCADO-PACHACAMAC,PACHACAMAC,Adrian,,,,,,,,Programada,Programada
+2026-07-02,,OLAYA-C1,CHORRILLOS,Jimmy Espiritu,,,,,,,,Programada,Programada
+2026-07-02,,PINEIRO-ATE,ATE,Carlos Guadalupe,,,,,,,,Programada,Programada
+2026-07-02,,MARIATEGUI-C25,EL AGUSTINO,Hector Malpartida,,,,,,,,Programada,Programada
+2026-07-02,,LIMATAMBO2,SAN BORJA,Mario Torres,,,,,,,,Programada,Programada
+2026-07-02,,CAMANA-C7,LIMA,Aaron,,,,,,,,Programada,Programada
+2026-07-02,,HUAMACHUCO-C14,JESUS MARIA,Antonio Salazar,,,,,,,,Programada,Programada
+2026-07-02,,LICENCIADOS,VENTANILLA,Carlos Toribio,,,,,,,,Programada,Programada
+2026-07-02,,COLONIAL-C1,LIMA,Steve Gonzales,,,,,,,,Programada,Programada
+2026-07-03,,ALLENDE-C1-SURCO,SANTIAGO DE SURCO,Steve Gonzales,,,,,,,,Programada,Programada
+2026-07-03,,ALAMOS2-SJM,SAN JUAN DE MIRAFLORES,Jimmy Espiritu,,,,,,,,Programada,Programada
+2026-07-03,,CHIMPU-OCLLO-C10,CARABAYLLO,Frank,,,,,,,,Programada,Programada
+2026-07-03,,ORUE-C7,SURQUILLO,Sebastian Arce,,,,,,,,Programada,Programada
+2026-07-03,,DANTE,SURQUILLO,Antonio Salazar,,,,,,,,Programada,Programada
+2026-07-03,,CANTOGRANDE-C26-SJL,SAN JUAN DE LURIGANCHO,Mario Torres,,,,,,,,Programada,Programada
+2026-07-03,,CARAPONGO,SAN JUAN DE LURIGANCHO,"Carlos Guadalupe, Hector",,,,,,,,Programada,Programada
+2026-07-03,,CONTISUYO-C2-INDEPENDENCIA,INDEPENDENCIA,Alberto Fernandez,,,,,,,,Programada,Programada
+2026-07-03,,HAYADELATORRE-C4-LAPERLA,LA PERLA,Jean,,,,,,,,Programada,Programada
+2026-07-03,,BOCANEGRA2,CALLAO,Aaron,,,,,,,,Programada,Programada
+2026-07-03,,DOMINICOS-C5,CALLAO,Carlos Toribio,,,,,,,,Programada,Programada
