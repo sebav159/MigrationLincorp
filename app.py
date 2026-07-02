@@ -391,13 +391,16 @@ with tabs["Resumen ejecutivo"]:
     migradas_log = int((cronograma["estatus"] == "Migrada").sum())
     programadas_log = int((cronograma["estatus"] == "Programada").sum())
 
+    ola0_row = resumen_olas.loc[resumen_olas["ola"] == "Ola 0"].iloc[0]
+    ola1_row = resumen_olas.loc[resumen_olas["ola"] == "Ola 1"].iloc[0]
+
     c1, c2, c3 = st.columns(3)
     with c1:
         kpi_card("Avance global confirmado", f"{avance_pct:.1f}%", f"{TOTAL_MIGRADAS_CONFIRMADAS} / {TOTAL_TIENDAS_PLAN} tiendas")
     with c2:
-        kpi_card("Exito Ola 0", "93.6%", "73 migradas / 78 procesadas")
+        kpi_card("Exito Ola 0", f"{ola0_row['exito_pct']:.1f}%", f"{int(ola0_row['tiendas_migradas'])} migradas / {int(ola0_row['tiendas_procesadas'])} procesadas")
     with c3:
-        kpi_card("Exito Ola 1 (a la fecha)", "100%", "12 / 12 tiendas")
+        kpi_card("Exito Ola 1 (a la fecha)", f"{ola1_row['exito_pct']:.0f}%", f"{int(ola1_row['tiendas_migradas'])} / {int(ola1_row['tiendas_procesadas'])} tiendas")
 
     st.markdown("<br>", unsafe_allow_html=True)
     col_a, col_b = st.columns([1, 2])
